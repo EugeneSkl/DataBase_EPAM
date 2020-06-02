@@ -1,8 +1,0 @@
-PROMPT 'Drop User'
-
-DEFINE USER_NAME = &&1
-
-DROP USER &&USER_NAME CASCADE;
-
-
-PROMPT 'User Dropped'
